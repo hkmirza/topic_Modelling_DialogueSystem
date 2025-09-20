@@ -36,5 +36,14 @@ python --version
 cd topic-modelling
 ### 2. Install dependencies:
    pip install -r requirements.txt
+   Or install manually:
+
+pip install numpy pandas tensorflow==2.12 scikit-learn matplotlib
+
+
+### Optional (for embeddings & plots):
+
+pip install tqdm seaborn
+
   ## Data Format
 The input dataset must be a CSV file
