@@ -47,3 +47,31 @@ pip install tqdm seaborn
 
   ## Data Format
 The input dataset must be a CSV file
+
+## Parameters
+
+--csv : Path to the dialogue dataset (CSV)
+
+--bot : Path to Bag-of-Topics JSON
+
+--embeddings : Pre-trained embeddings (e.g., GloVe .txt file)
+
+--max_words : Vocabulary size (default = 50k)
+
+--emb_dim : Embedding dimension (default = 300)
+
+--T_max : Max tokens per utterance (default = 40)
+
+--H_ctx : Hidden units per direction in context BiLSTM (default = 256)
+
+--batch_size : Training batch size (default = 8)
+
+--epochs : Number of training epochs (default = 30)
+
+## Outputs
+
+Model checkpoint: topic_segmenter.best.h5
+
+Predictions: test_predictions (includes predicted, noisy, and gold topics)
+
+Evaluation metrics: Printed in terminal (MAE, WD, Precision, Recall, F1)
