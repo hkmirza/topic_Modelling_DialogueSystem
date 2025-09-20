@@ -21,22 +21,20 @@ The experiment evaluates the approach on **Switchboard**, **PersonaChat**, and *
 
 ---
 
-## Requirements
+## Installation Guide
 
-To run this experiment, ensure you have **Python 3.8+** installed.  
-All dependencies are listed in the `requirements.txt` file.
-
-Install the dependencies with:
-
-```bash
-pip install -r requirements.txt
-
-## Clone Repository
-
-git clone https://github.com/yourusername/topic-modelling.git
+### Install Python
+If you don't have Python installed, download and install it from:
+- [Python Official Website](https://www.python.org/downloads/)
+Verify installation:
+```sh
+python --version
+```
+## Installation
+### 1. Clone the repository:
+   git clone https://github.com/yourusername/topic-modelling.git
 cd topic-modelling
-
-
-## Requirements requirements:
-
-pip install -r requirements.txt
+### 2. Install dependencies:
+   pip install -r requirements.txt
+  ## Data Format
+The input dataset must be a CSV file
